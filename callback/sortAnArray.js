@@ -20,3 +20,12 @@ return result;
 
 
 console.log(sortAnArray([3,5,2,-10,8]));
+
+
+//version avec function sort
+
+function sortAnArrayV2(array){
+return array.sort((a,b) =>  a-b );
+}
+
+console.log(sortAnArrayV2([3,5,2,-10,8]));
